@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="BKStoreConnectionString-Web.config Connection String" description="BKStoreConnectionString Connection String used in web.config by the application to access the database." defaultValue="workstation id=bkstore.mssql.somee.com;packet size=4096;user id=thienthenguyen_SQLLogin_1;pwd=n41b6uuq1f;data source=bkstore.mssql.somee.com;persist security info=False;initial catalog=bkstore" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\My\ Web\ API\\BKStore_API\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BKStoreConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
